@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("IZ0IJD <iz0ijd@gmail.com>")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Windows application to send a RIG data from FLRig software to CloudLog platform.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0c36edd1698af03d1e27490540cf8cdf24f28d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65dfefc90c4ad031a69436a2de6c03f8f2d73be9")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlrigToCloudlog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlrigToCloudlog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

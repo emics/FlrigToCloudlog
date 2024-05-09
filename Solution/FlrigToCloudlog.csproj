@@ -16,13 +16,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="xmlrpcwsc">
-      <HintPath>..\..\..\Downloads\xmlrpcwsc-dotnet-main\xmlrpcwsc\obj\Release\net45\xmlrpcwsc.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -46,6 +39,12 @@
 
   <ItemGroup>
     <Folder Include="Resources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="xmlrpcwsc">
+      <HintPath>..\XmlRpc\xmlrpcwsc.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emili\\source\\repos\\FlrigToCloudlog\\FlrigToCloudlog.csproj",
+      "projectUniqueName": "F:\\SVILUPPO\\GitHub\\FlrigToCloudlog\\Solution\\FlrigToCloudlog.csproj",
       "projectName": "FlrigToCloudlog",
-      "projectPath": "C:\\Users\\emili\\source\\repos\\FlrigToCloudlog\\FlrigToCloudlog.csproj",
+      "projectPath": "F:\\SVILUPPO\\GitHub\\FlrigToCloudlog\\Solution\\FlrigToCloudlog.csproj",
       "packagesPath": "C:\\Users\\emili\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emili\\source\\repos\\FlrigToCloudlog\\obj\\",
+      "outputPath": "F:\\SVILUPPO\\GitHub\\FlrigToCloudlog\\Solution\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emili\\AppData\\Roaming\\NuGet\\NuGet.Config",
