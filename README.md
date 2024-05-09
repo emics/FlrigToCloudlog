@@ -9,17 +9,16 @@
 
 
 ## Introduction
-Welcome to my repository e [hamqsl.com][hamqsl] and [kc2g.com][kc2g] API.
+This software for Windows require .NET Framework to run, allows you to read information from the **flrig** application connected to your ham radio and send the data to the **CloudLog** platform.
+
+You can find all info about this fantastic project here (https://github.com/magicbug/Cloudlog/wiki).
+
+This software also allows you to receive ADIF messages via UDP and automatically update your logbook on the **CloudLog** platform.
+
+Simply configure the apikey and address of your **CloudLog** installation.
 
 ---
-## Description
-This software for Windows require .NET Framework to run, allows you to read information from the flrig application connected to your ham radio and send the data to the CloudLog platform.
-This software also allows you to receive ADIF messages via UDP and automatically update your logbook on the CloudLog platform.
-
-Simply configure the apikey and address of your CloudLog installation.
-
 ## Installation
-
 ### Manual installation
 
 * Create a new direcory (folder) in your computer.
@@ -27,13 +26,13 @@ Simply configure the apikey and address of your CloudLog installation.
 * Extract _all_ files from this archive you downloaded in the directory (folder) you created.
 * Run `FlrigToCloudlog.exe` and configure it.
 
-![Folder](https://raw.githubusercontent.com/emics/FlrigToCloudlog/main/folder.png)
+![Folder](https://raw.githubusercontent.com/emics/FlrigToCloudlog/main/assets/folder.png)
 
 ## Configuration
 
 Once run the application go to the Config Tab
 
-![Config Tab](https://raw.githubusercontent.com/emics/FlrigToCloudlog/main/config_tab.png)
+![Config Tab](https://raw.githubusercontent.com/emics/FlrigToCloudlog/main/assets/config_tab.png)
 
 In the configuration tab it is possible to enter the following values:
 
@@ -45,11 +44,12 @@ To enable transmission feature you must check **Enable Rig Data to CloudLog task
 **4. Update Delay (sec.)** - is the interval in seconds for reading data from flrig and sending it to CloudLog
    
 This software can also send to CloudLog every QSO you register on your local Logbook. 
+
 You can enable this feature checking **Enable ADIF Log to CloudLog task** and configuring these values:
 **5. Listen UDP Port** - select the listening port
 **6. ID Station Location** - you can retrieve this value in your CloudLog platform in Menu -> Station Location find the line of your QTH and read the blue ID number.
 
-![Station Location](https://raw.githubusercontent.com/emics/FlrigToCloudlog/main/station_location.png)
+![Station Location](https://raw.githubusercontent.com/emics/FlrigToCloudlog/main/assets/station_location.png)
 
 **7. Auto Start Minimized** - this feature reduce automaticaly the application to the tray bar at startup. 
 
@@ -57,7 +57,7 @@ You can enable this feature checking **Enable ADIF Log to CloudLog task** and co
 Once the configuration has been completed, it is possible to start the program using the Start button and check the operation using the two traffic lights that indicate the status of the two different tasks (flrig and ADIF Log).
 Similarly, to stop the service, simply press the Stop button
 
-![Server Tab](https://raw.githubusercontent.com/emics/FlrigToCloudlog/main/server_tab.png)
+![Server Tab](https://raw.githubusercontent.com/emics/FlrigToCloudlog/main/assets/server_tab.png)
 
 
 <p align="center">* * *</p>
