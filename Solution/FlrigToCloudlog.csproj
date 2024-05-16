@@ -13,6 +13,7 @@
     <PackageProjectUrl>https://github.com/emics/FlrigToCloudlog</PackageProjectUrl>
     <RepositoryUrl>https://github.com/emics/FlrigToCloudlog</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

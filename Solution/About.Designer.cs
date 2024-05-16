@@ -41,7 +41,7 @@
             label1.Name = "label1";
             label1.Size = new Size(304, 92);
             label1.TabIndex = 0;
-            label1.Text = "FlrigToCloudlog\r\nVersion 1.0.0\r\nCopyright IZØIJD <iz0ijd@gmail.com>\r\nDeveloper: Emiliano IZØIJD";
+            label1.Text = "FlrigToCloudlog\r\nVersion 1.0.1\r\nCopyright IZØIJD <iz0ijd@gmail.com>\r\nDeveloper: Emiliano IZØIJD";
             // 
             // button
             // 

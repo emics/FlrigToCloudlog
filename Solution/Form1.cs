@@ -38,7 +38,11 @@ namespace FlrigToCloudlog
         {
             LoadSettings();
             if (conf.startMinimized)
+            {
                 Start();
+                this.WindowState = FormWindowState.Minimized;                
+            }
+                
         }
         private void LoadSettings()
         {
