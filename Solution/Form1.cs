@@ -15,7 +15,7 @@ namespace FlrigToCloudlog
         static FlrigClient flrigClient;
         Timer timer;
         Timer timerQueue;
-        string LastSend = DateTime.Now.ToString("yyyy/MM/dd HH:mm");
+        DateTime LastSend = DateTime.Now.AddDays(-1);
         bool isActiveRig = false;
         bool isActiveAdif = false;
         UdpServer udpServer = new UdpServer(2878);
@@ -204,9 +204,12 @@ namespace FlrigToCloudlog
 
                 if (frequency == oldData.Frequency && mode == oldData.Mode && oldData.PowerWatts == powerWatts)
                 {
-                    WriteStatus($"No Rig update needed, last send at {LastSend}");
-                    setFlrigLight(Properties.Resources.green);
-                    return;
+                    if (LastSend.AddSeconds(conf.updateDelaySeconds * 15) > DateTime.Now)
+                    {
+                        WriteStatus($"No Rig update needed, last send at {LastSend.ToString("yyyy/MM/dd HH:mm")}");
+                        setFlrigLight(Properties.Resources.green);
+                        return;
+                    }                   
                 }
 
                 var trxName = await flrigClient.GetXcvrAsync();
@@ -228,8 +231,8 @@ namespace FlrigToCloudlog
                 {
                     var response = await httpClient.PostAsJsonAsync(conf.cloudlogUrl + "/api/radio", data);
                     response.EnsureSuccessStatusCode();
-                    LastSend = DateTime.Now.ToString("yyyy/MM/dd HH:mm");
-                    WriteStatus($"Data Rig sent to cloudlog: {response.StatusCode} at {LastSend}");
+                    LastSend = DateTime.Now;
+                    WriteStatus("Data Rig sent to cloudlog: " + response.StatusCode + " at " + LastSend.ToString("yyyy/MM/dd HH:mm"));
                     setFlrigLight(Properties.Resources.green);
                 }
 
@@ -401,13 +404,20 @@ namespace FlrigToCloudlog
             txtCloudApiKey.Enabled = true;
             txtCloudUrl.Enabled = true;
             txtFlRigUrl.Enabled = true;
-            numDelaySec.Enabled = true;
-            numListenPort.Enabled = true;
-            numIdStation.Enabled = true;
+            
             chkboxMinimized.Enabled = true;
             chkboxUDPServer.Enabled = true;
             chkboxRigServer.Enabled = true;
-
+            if (chkboxRigServer.Checked)
+            {
+                numDelaySec.Enabled = true;
+                txtFlRigUrl.Enabled = true;
+            }
+            if (chkboxUDPServer.Checked)
+            {
+                numListenPort.Enabled = true;
+                numIdStation.Enabled = true;
+            }
             WriteStatus("Stopped!");
             notifyIcon.BalloonTipText = "Stopped";
             notifyIcon.Text = "FlrigToCloudlog - Stopped";
@@ -447,11 +457,13 @@ namespace FlrigToCloudlog
             if (chkboxRigServer.Checked)
             {
                 numDelaySec.Enabled = true;
+                txtFlRigUrl.Enabled = true;
                 pbFlrig.Image = Properties.Resources.red;
             }
             else
             {
                 numDelaySec.Enabled = false;
+                txtFlRigUrl.Enabled = false;
                 pbFlrig.Image = Properties.Resources.gray;
             }
 

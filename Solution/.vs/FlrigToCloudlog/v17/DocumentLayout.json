@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\SVILUPPO\\GitHub\\FlrigToCloudlog\\Solution\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3669E6-2B07-44B8-B402-E4ED1DEDB556}|FlrigToCloudlog.csproj|f:\\sviluppo\\github\\flrigtocloudlog\\solution\\flrigtocloudlog.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{AF3669E6-2B07-44B8-B402-E4ED1DEDB556}|FlrigToCloudlog.csproj|solutionrelative:flrigtocloudlog.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3669E6-2B07-44B8-B402-E4ED1DEDB556}|FlrigToCloudlog.csproj|f:\\sviluppo\\github\\flrigtocloudlog\\solution\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF3669E6-2B07-44B8-B402-E4ED1DEDB556}|FlrigToCloudlog.csproj|solutionrelative:about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3669E6-2B07-44B8-B402-E4ED1DEDB556}|FlrigToCloudlog.csproj|F:\\SVILUPPO\\GitHub\\FlrigToCloudlog\\Solution\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF3669E6-2B07-44B8-B402-E4ED1DEDB556}|FlrigToCloudlog.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3669E6-2B07-44B8-B402-E4ED1DEDB556}|FlrigToCloudlog.csproj|f:\\sviluppo\\github\\flrigtocloudlog\\solution\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF3669E6-2B07-44B8-B402-E4ED1DEDB556}|FlrigToCloudlog.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "F:\\SVILUPPO\\GitHub\\FlrigToCloudlog\\Solution\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "F:\\SVILUPPO\\GitHub\\FlrigToCloudlog\\Solution\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T11:56:25.878Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.cs [Design]",
+              "DocumentMoniker": "F:\\SVILUPPO\\GitHub\\FlrigToCloudlog\\Solution\\About.cs",
+              "RelativeDocumentMoniker": "About.cs",
+              "ToolTip": "F:\\SVILUPPO\\GitHub\\FlrigToCloudlog\\Solution\\About.cs [Design]",
+              "RelativeToolTip": "About.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T10:47:51.114Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FlrigToCloudlog",
+              "DocumentMoniker": "F:\\SVILUPPO\\GitHub\\FlrigToCloudlog\\Solution\\FlrigToCloudlog.csproj",
+              "RelativeDocumentMoniker": "FlrigToCloudlog.csproj",
+              "ToolTip": "F:\\SVILUPPO\\GitHub\\FlrigToCloudlog\\Solution\\FlrigToCloudlog.csproj",
+              "RelativeToolTip": "FlrigToCloudlog.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-11T10:47:31.408Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -34,6 +84,35 @@
             {
               "$type": "Bookmark",
               "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "F:\\SVILUPPO\\GitHub\\FlrigToCloudlog\\Solution\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "F:\\SVILUPPO\\GitHub\\FlrigToCloudlog\\Solution\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAswNMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T11:57:09.502Z",
+              "EditorCaption": ""
             }
           ]
         }

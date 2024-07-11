@@ -131,6 +131,7 @@
             // 
             // txtFlRigUrl
             // 
+            txtFlRigUrl.Enabled = false;
             txtFlRigUrl.Location = new Point(150, 76);
             txtFlRigUrl.Name = "txtFlRigUrl";
             txtFlRigUrl.Size = new Size(408, 27);
@@ -431,7 +432,7 @@
             tabPageCloudLog.Controls.Add(chkboxShow);
             tabPageCloudLog.Location = new Point(4, 29);
             tabPageCloudLog.Name = "tabPageCloudLog";
-            tabPageCloudLog.Size = new Size(562, 239);
+            tabPageCloudLog.Size = new Size(570, 239);
             tabPageCloudLog.TabIndex = 3;
             tabPageCloudLog.Text = "Configuration";
             tabPageCloudLog.UseVisualStyleBackColor = true;
